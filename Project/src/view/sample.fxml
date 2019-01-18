@@ -1,8 +1,21 @@
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<GridPane fx:controller="controller.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-</GridPane>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle fx:id="car1" fill="DODGERBLUE" layoutX="283.0" layoutY="111.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line fx:id="worker5" endX="-76.0" endY="30.599990844726562" layoutX="296.0" layoutY="123.0" startX="-107.20001220703125" startY="2.0" />
+      <Circle fx:id="car5" fill="DODGERBLUE" layoutX="159.0" layoutY="192.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="car4" fill="DODGERBLUE" layoutX="217.0" layoutY="310.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="car3" fill="DODGERBLUE" layoutX="351.0" layoutY="310.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="car2" fill="DODGERBLUE" layoutX="409.0" layoutY="192.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line fx:id="worker1" endX="-51.79998779296875" endY="-22.199996948242188" layoutX="430.0" layoutY="140.0" startX="-80.4000244140625" startY="6.4000091552734375" />
+      <Line fx:id="worker4" endX="16.0" endY="-21.199996948242188" layoutX="188.0" layoutY="262.0" startX="-16.79998779296875" startY="6.0" />
+      <Line fx:id="worker3" endX="6.5999755859375" endY="-16.20001220703125" layoutX="283.0" layoutY="309.0" startX="6.5999755859375" startY="23.79998779296875" />
+      <Line fx:id="worker2" endX="100.0" layoutX="280.0" layoutY="252.0" startX="140.79998779296875" startY="24.0" />
+   </children>
+</AnchorPane>
