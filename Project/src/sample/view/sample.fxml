@@ -5,7 +5,7 @@
 <?import javafx.scene.shape.Line?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.FXMLController">
    <children>
       <Circle fx:id="car1" fill="DODGERBLUE" layoutX="283.0" layoutY="111.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
       <Line fx:id="worker5" endX="-76.0" endY="30.599990844726562" layoutX="296.0" layoutY="123.0" startX="-107.20001220703125" startY="2.0" />
